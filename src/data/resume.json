@@ -69,5 +69,38 @@
       "area": "Informatics Engineering"
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "name": "ntrsv",
+      "description": "Song randomizer and lane cover for the Tracing the Stars rhythm minigame in NIKKE.",
+      "url": "https://github.com/alvarodwi/ntrsv",
+      "liveUrl": "https://ntrsv.netlify.app",
+      "keywords": ["Vue", "TypeScript", "UnoCSS"]
+    },
+    {
+      "name": "StudentProfiles",
+      "description": "Android app for browsing the Blue Archive student roster. Bangkit 2023 submission for Dicoding's Android Developer Expert class.",
+      "url": "https://github.com/alvarodwi/studentprofiles",
+      "keywords": ["Kotlin", "Android"]
+    },
+    {
+      "name": "Oprec Asprak 2023",
+      "description": "Recruitment site for informatics lab assistants at Universitas Padjadjaran.",
+      "url": "https://github.com/alvarodwi/oprecastprak2023",
+      "liveUrl": "https://oprecastprak2023.netlify.app",
+      "keywords": ["Vue", "Nuxt"]
+    },
+    {
+      "name": "15 Puzzle",
+      "description": "Sliding tile puzzle game, final project for an object-oriented programming class.",
+      "url": "https://github.com/alvarodwi/oop-final-kelompok-a-07",
+      "keywords": ["Java", "JavaFX"]
+    },
+    {
+      "name": "Reel",
+      "description": "Android app listing popular movies and TV shows from TMDB, with an encrypted local database.",
+      "url": "https://github.com/alvarodwi/Reel",
+      "keywords": ["Kotlin", "Android"]
+    }
+  ]
 }

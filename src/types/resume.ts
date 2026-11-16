@@ -24,6 +24,8 @@ export interface Project {
   name: string
   description: string
   url: string
+  // Not in JSON Resume; deployed demo, when one exists.
+  liveUrl?: string
   keywords?: string[]
 }
 
