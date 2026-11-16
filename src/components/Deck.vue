@@ -45,7 +45,8 @@ function onPointerUp(e: PointerEvent) {
 </script>
 
 <template>
-  <Transition>
+  <!-- css=false: swap instantly until the styling phase adds transition CSS -->
+  <Transition :css="false">
     <section
       :key="current.label"
       ref="sectionEl"
