@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { pages } from '@/deck/pages'
+import Deck from '@/components/Deck.vue'
 </script>
 
 <template>
   <main>
-    <component :is="p.component" v-for="p in pages" :key="p.id" />
+    <Deck />
   </main>
 </template>
